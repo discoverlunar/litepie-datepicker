@@ -45,7 +45,7 @@
     "tw": "npx tailwind build ./docs/src/styles.css -o ./docs/dist/css/prims.css && cp -r ./docs/public/img ./docs/dist/img && cp ./docs/public/favicon.ico ./docs/dist",
     "lint": "eslint --fix",
     "locale": "rm -rf ./dist/locale && cp -rf ./src/locale ./dist/locale",
-    "prepare": "npm run locale && npm run build"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
