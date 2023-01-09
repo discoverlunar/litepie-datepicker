@@ -36,7 +36,7 @@
             datepickerClasses(date),
             asRange ? 'transition-all' : 'transition-colors'
           ]"
-          :disabled="date.disabled || date.inRange()"
+          :disabled="date.disabled || date.inRange() || date.isToday()"
           @click="$emit('update:date', date, asPrevOrNext)"
           @mouseenter="atMouseOver(date)"
           @focusin="atMouseOver(date)"
