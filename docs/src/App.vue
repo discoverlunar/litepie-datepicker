@@ -116,7 +116,7 @@
               class="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 text-gray-400 font-medium tracking-tight mb-10 sm:mb-11"
             >
               A date range picker component for Vue.js and Tailwind CSS,
-              dependent on day.js.
+              dependent to day.js.
             </p>
             <div
               class="flex flex-wrap space-y-4 sm:space-y-0 sm:space-x-4 sm:space-x-reverse text-center"
@@ -189,7 +189,7 @@
               </div>
               <div class="mt-2">
                 <p>
-                  Litepie Datepicker uses
+                  Litepie Datepicker use
                   <a
                     href="https://tailwindcss.com"
                     class="font-semibold text-light-blue-400"
@@ -205,7 +205,7 @@
                   >
                     Day.js
                   </a>
-                  <i>under the hood</i>. You must install them prior to using Litepie.
+                  <i>under the hood</i> , You must installing before.
                 </p>
               </div>
             </div>
@@ -260,7 +260,7 @@
               </span>
             </h3>
             <div>
-              <p>Setup as a global component:</p>
+              <p>Setup globally components</p>
               <div class="rounded-xl overflow-hidden my-6">
                 <div class="bg-light-blue-500">
                   <v-prims
@@ -272,7 +272,7 @@
               </div>
             </div>
             <div>
-              <p>Setup as a single component:</p>
+              <p>Setup as single components</p>
               <div class="rounded-xl overflow-hidden my-6">
                 <div class="bg-light-blue-500">
                   <v-prims language="html" :code="defaultContent.itWorks.asSFC">
@@ -289,7 +289,7 @@
                 aria-label="Anchor"
               ></a>
               <span class="text-lg text-gray-900">
-                Tailwind CSS configuration:
+                Tailwind CSS configuration
               </span>
             </h3>
             <div class="rounded-xl overflow-hidden my-6">
