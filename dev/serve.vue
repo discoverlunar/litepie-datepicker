@@ -11,7 +11,7 @@
                 ref="s"
                 i18n="id"
                 :formatter="{
-                  date: 'YYYY-MMM-DD HH:mm:ss',
+                  date: 'DD MMMM YYYY',
                   month: 'MMM'
                 }"
                 :options="{
