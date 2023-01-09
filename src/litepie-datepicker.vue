@@ -1282,8 +1282,8 @@ export default /*#__PURE__*/ defineComponent({
               'update:modelValue',
               useToValueFromArray(
                 {
-                  previous: dayjs(s, props.formatter.date, true),
-                  next: dayjs(e, props.formatter.date, true)
+                  previous: s,
+                  next: e
                 },
                 props
               )
