@@ -1128,7 +1128,7 @@ export default /*#__PURE__*/ defineComponent({
         }
       }
       if (active) {
-        classes = today
+        classes = today && !disabled
           ? `text-litepie-primary-500 font-semibold dark:text-litepie-primary-400 rounded-full`
           : disabled
           ? `text-litepie-secondary-600 font-normal disabled:text-litepie-secondary-500 disabled:cursor-not-allowed rounded-full`
